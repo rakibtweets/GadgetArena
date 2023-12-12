@@ -1,5 +1,6 @@
 import { navLinks } from '@/constants';
 import Link from 'next/link';
+import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   return (
@@ -17,7 +18,7 @@ const Navbar = () => {
         </div>
         <div className="flex gap-2  ">
           <p>search</p>
-          <p>theme</p>
+          <ThemeToggle />
           <p>cart</p>
           <p>Profile</p>
         </div>
