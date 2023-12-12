@@ -5,7 +5,7 @@ import { useTheme } from 'next-themes';
 const Counter = () => {
   const { setTheme } = useTheme();
   return (
-    <div className="flex h-screen  items-center justify-center">
+    <div className="">
       <div className="flex gap-4">
         <button
           onClick={() => setTheme('dark')}
