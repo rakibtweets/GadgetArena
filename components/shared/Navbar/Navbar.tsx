@@ -2,8 +2,11 @@ import { navLinks } from '@/constants';
 import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 import Cart from '@/components/Cart/Cart';
+import SignInRegister from './SignInRegister';
+import ProfileAvatar from './ProfileAvatar';
 
 const Navbar = () => {
+  const isUserLoggedIn = false;
   return (
     <header>
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
@@ -21,7 +24,7 @@ const Navbar = () => {
           <p>search</p>
           <ThemeToggle />
           <Cart />
-          <p>Profile</p>
+          {!isUserLoggedIn ? <SignInRegister /> : <ProfileAvatar />}
         </div>
       </nav>
     </header>

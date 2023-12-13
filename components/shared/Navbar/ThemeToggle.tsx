@@ -23,7 +23,7 @@ const ThemeToggle = () => {
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
+      <DropdownMenuContent align="center">
         <DropdownMenuItem onClick={() => setTheme('light')}>
           <div className="flex items-center space-x-2">
             <Sun className="h-4 w-4" />
