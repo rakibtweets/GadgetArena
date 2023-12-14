@@ -4,6 +4,7 @@ import ThemeToggle from './ThemeToggle';
 import Cart from '@/components/Cart/Cart';
 import SignInRegister from './SignInRegister';
 import ProfileAvatar from './ProfileAvatar';
+import SearchBar from './SearchBar';
 
 const Navbar = () => {
   const isUserLoggedIn = false;
@@ -21,7 +22,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className="flex gap-2  ">
-          <p>search</p>
+          <SearchBar />
           <ThemeToggle />
           <Cart />
           {!isUserLoggedIn ? <SignInRegister /> : <ProfileAvatar />}
