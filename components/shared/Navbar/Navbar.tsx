@@ -21,7 +21,7 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        <div className="flex gap-2  ">
+        <div className="flex items-center justify-center gap-2  ">
           <SearchBar />
           <ThemeToggle />
           <Cart />
