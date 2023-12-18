@@ -1,4 +1,8 @@
 const Hero = () => {
-  return <div>Hero</div>;
+  return (
+    <section className="flex items-center justify-center font-bold">
+      Hero Section
+    </section>
+  );
 };
 export default Hero;
