@@ -7,7 +7,7 @@ import { ArrowRight } from 'lucide-react';
 const Hero = () => {
   return (
     <Container>
-      <div className=" flex h-[500px] w-full items-center justify-center border border-red-500 bg-black p-10 text-white">
+      <div className=" flex h-[350px] w-full items-center justify-center border border-red-500 bg-black p-10 text-white">
         <div className="flex h-full w-full items-center justify-center border border-red-500">
           <div className="flex h-full flex-1 flex-col items-start justify-center ps-6  ">
             <div className="mb-8">
