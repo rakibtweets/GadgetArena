@@ -34,7 +34,7 @@ const Hero = () => {
               src={'/assets/images/hero_iphone.png'}
               width={500}
               height={500}
-              alt="hero"
+              alt="hero section"
             />
           </div>
         </div>
