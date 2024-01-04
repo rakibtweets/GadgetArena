@@ -15,9 +15,9 @@ const Navbar = () => {
           <Link href="/">GadgetArena</Link>
         </div>
         <div className=" hidden items-center justify-center gap-6 lg:flex ">
-          {navLinks.map((link) => (
-            <Link href={link.name} key={link.route}>
-              {link.label}
+          {navLinks.map(({ name, label, route }) => (
+            <Link href={name} key={route}>
+              {label}
             </Link>
           ))}
         </div>
